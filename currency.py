@@ -1,4 +1,5 @@
 #currency.py
+
 p=int(input('wt do u have left in pesos?'))
 s=int(input('wt do u have left in soles?'))
 r=int(input('wt do u have left in reais?'))
@@ -9,4 +10,5 @@ usd_p=p/ep
 usd_s=s/es
 usd_r=r/er
 usd=usd_p+usd_s+usd_r
+
 print('the total remaining amount in USD is:', usd)
